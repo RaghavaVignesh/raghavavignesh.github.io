@@ -1,4 +1,3 @@
-function setupDressSelector() {
 const wrapper = document.querySelector(".wrapper");
 const question = document.querySelector(".question");
 const rag1 = document.querySelector(".rag1");
@@ -63,8 +62,5 @@ nolovebtn.addEventListener("mouseover", () => {
 });
 }
 
-if (isLargeDevice()) {
-   setupDressSelector();
-  }
 
 
