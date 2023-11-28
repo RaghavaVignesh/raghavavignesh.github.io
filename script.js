@@ -60,7 +60,6 @@ nolovebtn.addEventListener("mouseover", () => {
   nolovebtn.style.left = randomX + "px";
   nolovebtn.style.top = randomY + "px";
 });
-}
 
 
 
