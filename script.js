@@ -12,6 +12,10 @@ const nolovebtn = document.querySelector(".no-love-btn");
 const yeslovebtn = document.querySelector(".yes-love-btn");
 const nextdressbtn = document.querySelector(".next-dress-btn");
 
+
+
+
+
 let clickCount = 0;
 
 yeslovebtn.addEventListener("click", () => {
@@ -39,6 +43,8 @@ yeslovebtn.addEventListener("click", () => {
     "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
     yeslovebtn.innerHTML = "";
     nolovebtn.innerHTML = "";
+    yeslovebtn.style.display = "none";
+    nolovebtn.style.display = "none";
  }
 });
 
